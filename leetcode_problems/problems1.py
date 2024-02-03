@@ -28,7 +28,7 @@ target = 12
 obj2 = Solution()
 result2 = obj2.twoSum(nums, target)
 print(result2)
--------------test------------------
+#-------------test------------------
 def twoSum( nums, target):
     list={}
     for i,num in enumerate(nums):
@@ -55,4 +55,4 @@ class Solution1(object):
         for i in range(len(nums)):
             print(i)
 twoSum([5,6,7,8,8,56],9)   
--------------test------------------     
+#-------------test------------------
